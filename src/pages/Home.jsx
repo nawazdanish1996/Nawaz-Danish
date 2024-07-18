@@ -1,12 +1,13 @@
 import "../style/Home.css";
-import Img from "/nawaz.jpg"
+import Img from "/nawaz.jpg";
 import { FaInstagram, FaGithub } from "react-icons/fa";
 
 const Home = () => {
+
   return (
     <div className="home">
       <div className="img">
-        <img src={Img} alt="Nawaz Danish" />
+        <img loading="lazy" src={Img} alt="Nawaz Danish" />
       </div>
       <h1>Nawaz Danish</h1>
       <p className="description">
@@ -20,7 +21,7 @@ const Home = () => {
         <a href="https://github.com/nawazdanish1996" target="blank" className="social-icon"><FaGithub /></a>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

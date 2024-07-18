@@ -5,7 +5,7 @@
     z-index: 1000;
     background: radial-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3));
 }
-  
+
 .navbars .menu-line-two{
     background-color: rgb(230, 230, 15);
 }
@@ -88,12 +88,11 @@
     top: 52px;
     left: 0;
     background-color: black;
-    /* background: radial-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)); */
     width: 30%;
     left: 70%;
     overflow: hidden;
-    max-height: ${isOpen ? '100vh' : '0'};
-    transition: max-width: 0.3s ease;
+    transition: all 0.3s ease;
+    max-height: 100vh;
 }
 
 .nav-menu.open {
