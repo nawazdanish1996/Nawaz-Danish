@@ -10,8 +10,7 @@ const Home = () => {
       </div>
       <h1>Nawaz Danish</h1>
       <p className="description">
-        I am a professional Intraday Trader, Investor and
-        Web Developer. 
+        I am a professional Web Developer, Intraday Trader & Investor. 
         I previously ran a  photocopy shop.
         I graduated from Kalinga University, Raipur, in 2017. 
         I am from West Bengal district of Uttar {"(North)"} Dinajpur, India.
