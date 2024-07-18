@@ -22,6 +22,7 @@ const Contact = () => {
           aria-hidden="false"
           tabIndex="0"
           title="Location Map"
+          loading="lazy"
         ></iframe>
       </div>
     </div>
