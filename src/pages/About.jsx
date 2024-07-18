@@ -17,7 +17,7 @@ const About = () => {
       <p>Lorem ipsum dolor sit amet.</p>
       <p>Lorem ipsum dolor sit amet.</p>
       <p>Lorem ipsum dolor sit amet.</p>
-      <p>Lorem ipsum dolor sit amet.</p>
+      <p>Lorem ipsaswssum dolor sit amet.</p>
       <p>Lorem ipsum dolor sit amet.</p>
       <p>Lorem ipsum dolor sit amet.</p>
       <p>Lorem ipsum dolor sit amet.</p>
