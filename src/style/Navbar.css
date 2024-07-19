@@ -35,6 +35,19 @@
     margin: 0.25rem 0 0 0;
     color: white;
     font-family: 'Times New Roman', Times, serif;
+    /* animation: textShadow 3s infinite forwards; */
+}
+
+@keyframes textShadow {
+    0%{
+        text-shadow: 2px 2px 8px white;
+    }
+    50%{
+        text-shadow: 2px 2px 8px yellow;
+    }
+    100%{
+        text-shadow: 2px 2px 8px rgb(35, 188, 226);
+    }
 }
   
 .menu-icon.open .menu-line:nth-child(1) {
@@ -76,6 +89,7 @@
 
 .menu-icon {
     display: block;
+    cursor: pointer;
 }
 
 .nav-menu {

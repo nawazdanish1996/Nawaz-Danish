@@ -8,11 +8,11 @@
     float: right;
     width: 35px;
     transition: all .3s ease-in-out;
+    border-radius: 50%;
     cursor: pointer;
 }
 
 .theme-container img:hover{
     background-color: rgb(74, 164, 238);
-    border-radius: 50%;
     padding: 5px;
 }
