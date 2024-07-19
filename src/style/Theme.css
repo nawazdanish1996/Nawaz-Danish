@@ -8,6 +8,7 @@
     float: right;
     width: 35px;
     transition: all .3s ease-in-out;
+    cursor: pointer;
 }
 
 .theme-container img:hover{
