@@ -93,6 +93,7 @@
     overflow: hidden;
     transition: all 0.3s ease;
     max-height: 100vh;
+    z-index: 1000;
 }
 
 .nav-menu.open {
